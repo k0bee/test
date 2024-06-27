@@ -1,6 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg
- onload="alert('bugcrowd')"
- xmlns="http://www.w3.org/2000/svg">
- <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
-</svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="<http://www.w3.org/1999/XSL/Transform>">
+
+<xsl:template match="/">
+
+<html><body>
+
+<script>alert(/bugcrowd/);</script>
+
+</body></html>
+
+</xsl:template>
+
+</xsl:stylesheet>
